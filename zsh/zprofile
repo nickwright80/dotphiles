@@ -10,3 +10,7 @@
 
 # Customize to your needs...
 
+# virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Documents/Code
+source /usr/local/bin/virtualenvwrapper.sh
