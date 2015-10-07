@@ -19,61 +19,61 @@
 # Uncomment examples below
 dotsyncrc
 #ack/ackrc
-#aptitude
-#bin:bin
+aptitude
+bin:bin
 #ctags/ctags
 #cmus
-#curl/curlrc
-#git/gitconfig
-#git/gitignore
-#git/gitattributes
-#git/tigrc
-#git/gitk
-#gnupg
+curl/curlrc
+git/gitconfig
+git/gitignore
+git/gitattributes
+git/tigrc
+git/gitk
+gnupg
 #grc
 #input/editrc
 #input/inputrc
-#irssi
+irssi
 #mpd/mpd.conf
-#mercurial/hgrc
-#mercurial/hgignore
+mercurial/hgrc
+mercurial/hgignore
 #mutt
 #mutt/muttrc
 #mutt/offlineimaprc
-#mysql/my.cnf
+mysql/my.cnf
 #ncmpcpp/config
 #ncmpcpp/error.log
-#postgresql/psqlrc
-#python/pythonrc
-#python/pylintrc
+postgresql/psqlrc
+python/pythonrc
+python/pylintrc
 #rpm/rpmmacros
-#ruby/irbrc
-#ruby/pryrc
-#ruby/gemrc
-#ruby/railsrc
-#ruby/rdebugrc
-#ruby/aprc
-#ruby/caprc
+ruby/irbrc
+ruby/pryrc
+ruby/gemrc
+ruby/railsrc
+ruby/rdebugrc
+ruby/aprc
+ruby/caprc
 #screen/screenrc
-#shell/hushlogin
-#shell/urlview
-#ssh
+shell/hushlogin
+shell/urlview
+ssh
 #subversion
 #task/task
 #task/taskrc
-#tmux/tmux.conf
-#tmux/tmuxinator
-#vim/dotvim:.vim
-#vim/vimrc
+tmux/tmux.conf
+tmux/tmuxinator
+vim/dotvim:.vim
+vim/vimrc
 #vim/gvimrc
-#wget/wgetrc
-#zsh/fasdrc
-#zsh/dotzsh:.zsh
-#zsh/zlogin
-#zsh/zlogout
-#zsh/zprofile
-#zsh/zshenv
-#zsh/zshrc
+wget/wgetrc
+zsh/fasdrc
+zsh/dotzsh:.zsh
+zsh/zlogin
+zsh/zlogout
+zsh/zprofile
+zsh/zshenv
+zsh/zshrc
 [endfiles]
 
 # Hosts to sync
@@ -88,5 +88,6 @@ dotsyncrc
 #host7.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
+Nicks-MacBook-Air                git=masterhost
 [endhosts]
 
