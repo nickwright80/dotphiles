@@ -9,9 +9,9 @@
 
 # Global Config
 [user]
-    #name = "**Your Name**"
-    #email = "**Your Email**"
-    #signingkey = **Your GPG ID**
+    name = Nick Wright
+    email = nickwright80@gmail.com
+    signingkey = 0B361A74440A43FBDCE483500C5DD298E802F50B
 
 [branch "master"]
     remote = origin
@@ -145,4 +145,3 @@
 
 [url "git@github.com:"]
     insteadof = github:
-
