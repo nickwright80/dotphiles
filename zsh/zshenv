@@ -18,3 +18,4 @@ source "$DOTZSH/env.zsh"
 
 # Customize to your needs...
 
+export HOMEBREW_GITHUB_API_TOKEN=`(/usr/bin/security 2>&1 >/dev/null find-generic-password -a nickwright80@gmail.com -s "github_access_token" -g) | /usr/bin/sed -e "s/^password: //" | tr -d '"'`
